@@ -8,10 +8,8 @@ First chard of app:
 Then I configure SES in aws
 ![SES](_docs/assets/ses.jpg)
 
-<br>
 Then I create a email lambda function for using SES to send emails for the app.I start with creating lambda execution role for lambda.This roles gives permission to lambda for ses,sns and states.Then I create email reminder lambda function.
 Chard for this part:
-<br>
 ![chard2](_docs/assets/Screenshot%20from%202023-04-02%2017-13-24.png)
 ![lambda](_docs/assets/lambda.png)
 
