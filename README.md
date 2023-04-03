@@ -17,4 +17,7 @@ In This part I add state machine,which is the main component of this serverless 
 ![chard3](_docs/assets/Screenshot%20from%202023-04-03%2020-02-33.png)
 ![stepfunction](_docs/assets/Screenshot%20from%202023-04-03%2019-52-45.png)
 
+In this part I create a lambda function for supporting API Gateway and API Gateway itself which will function as the entry point to  application. By creating the API Gateway, I have an endpoint that client application can use to talk to application itself.So I create lambda function and configure API Gateway. 
 
+![chard4](_docs/assets/Screenshot%20from%202023-04-03%2022-10-10.png)
+![apıgateway](_docs/assets/Screenshot%20from%202023-04-03%2022-08-32.png)
