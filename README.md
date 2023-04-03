@@ -13,3 +13,8 @@ Chard for this part:
 ![chard2](_docs/assets/Screenshot%20from%202023-04-02%2017-13-24.png)
 ![lambda](_docs/assets/lambda.png)
 
+In This part I add state machine,which is the main component of this serverless application.State machine will control the flow of the app.It will initially pause for a number of seconds, the time until the next cuddle requirement.After the time's expired,the state machine then uses the email Lambda function to send a cuddle notification  customer maill adress.The state machine has role for interact to other services which I use in this project.I use step functions in aws for creating state machine.
+![chard3](_docs/assets/Screenshot%20from%202023-04-03%2020-02-33.png)
+![stepfunction](_docs/assets/Screenshot%20from%202023-04-03%2019-52-45.png)
+
+
