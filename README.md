@@ -17,4 +17,29 @@ In This part I add state machine,which is the main component of this serverless 
 ![chard3](_docs/assets/Screenshot%20from%202023-04-03%2020-02-33.png)
 ![stepfunction](_docs/assets/Screenshot%20from%202023-04-03%2019-52-45.png)
 
+In this part I create a lambda function for supporting API Gateway and API Gateway itself which will function as the entry point to  application. By creating the API Gateway, I have an endpoint that client application can use to talk to application itself.So I create lambda function and configure API Gateway. 
+
+![chard4](_docs/assets/Screenshot%20from%202023-04-03%2022-10-10.png)
+![apıgateway](_docs/assets/Screenshot%20from%202023-04-03%2022-08-32.png)
+
+In this stage of the application ı will create an S3 bucket and static website hosting which will host the application front end.I will download the source files for the front end, configure them to connect to your specific API gateway and then upload them to S3. Then I will run some application tests to verify its functionality.I use S3 for hosting client part of app.I will enable static website hosting in s3 also bucket is publicly accessible.
+![chard5](_docs/assets/Screenshot%20from%202023-04-04%2016-50-20.png)
+![s3](_docs/assets/newS3.jpg)
+![frontend](_docs/assets/newappfrontend.jpg)
+
+When I fill the information in this page state machine start to running and this is the timer state.I write 120 second for wait and when 120 second pass it will continue in email state.In this step lambda function invoke and send an email notification.When its completed its the end of the state machine execution.
+
+![stepfunction](_docs/assets/stepfunction.png)
+![execution](_docs/assets/executiondetail.jpg)
+
+
+
+
+
+
+
+
+
+
+
 
