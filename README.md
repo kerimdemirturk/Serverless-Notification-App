@@ -33,7 +33,7 @@ When I fill the information in this page state machine start to running and this
 ![execution](_docs/assets/executiondetail.jpg)
 
 
-burayada step function resimleri.
+
 
 
 
